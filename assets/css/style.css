@@ -123,11 +123,13 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: rgba(206, 205, 205, 0.725);
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
   background: rgba(0, 0, 0, 0.8);
+  
 }
 
 #header .logo {
@@ -142,6 +144,7 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  
 }
 
 #header .logo a span {
@@ -406,20 +409,21 @@ h6 {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/wallpaper.png") top center;
   background-size: cover;
   position: relative;
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
+  
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 #hero .container {
   position: relative;
